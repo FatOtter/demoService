@@ -1,5 +1,5 @@
 ## Readme
-The project is constructed in *Spring* framework.
+The project is constructed in *Spring* framework. To execute the application, run *src/main/java/com/example/demo/DemoApplication.java*
 
 All APIs implemented accepts input as request body in JSON format. Below illustrate the URL and keys accepted.
 URL in "./xxx" format, the "./" means the root URL for your *Spring* host.
@@ -40,7 +40,8 @@ In the provided collection the root URL is http://localhost:8080.
     Corresponding to the service requirement No. 9 All roles
      * token - String, representing the token string to pass authentication
     
-Please note the web service API accepts **different** input values than the Spring service.
+###Please note 
+The web service API accepts **different** input values than the Spring service.
 In the Spring service class, the code accepts exactly the same input as the document illustrated.
 Difference in inputs happens for item 2, 4, 5, 8.
 
